@@ -2,9 +2,9 @@
 'use client';
 
 const docs = [
-  { title: "Catálogo Natural Mix", year: "2024", file: "/docs/NATURAL MIX.pdf", type: "Editorial" },
+  { title: "Catálogo Natural Mix", year: "2024", file: "/docs/NATURAL MIX.pdf", type: "Comercial" },
   { title: "Campanha Fenzza", year: "2023", file: "/docs/Fenzza.pdf", type: "Comercial" },
-  { title: "Coleção de Natal", year: "2023", file: "/docs/Catalogo Natal.pdf", type: "Lookbook" },
+  { title: "Coleção de Natal", year: "2023", file: "/docs/Catalogo Natal.pdf", type: "Comercial" },
 ];
 
 export default function DocumentList() {

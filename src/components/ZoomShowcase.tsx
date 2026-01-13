@@ -29,7 +29,7 @@ export default function ZoomShowcase() {
     <section className="py-20 md:py-32 bg-neutral-950 text-white">
       <div className="container mx-auto px-6 md:px-20 mb-20">
         <h2 className="text-4xl md:text-6xl font-bold uppercase tracking-tighter mb-4">
-          Catálogos <span className="text-neutral-600">Editoriais</span>
+          Catálogos <span className="text-neutral-600">Comerciais</span>
         </h2>
         <p className="text-gray-400 max-w-2xl text-lg">
           Capas desenvolvidas estrategicamente para apoiar a força de vendas. 
