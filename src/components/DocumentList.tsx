@@ -61,7 +61,6 @@ export default function DocumentList() {
         </div>
 
         <div className="mt-32 text-center">
-            <p className="text-sm uppercase tracking-widest text-gray-400">Design Portfolio © 2024</p>
             <h1 className="text-[15vw] leading-none font-bold text-black/5 mt-10 select-none">
               SARAIVA
             </h1>

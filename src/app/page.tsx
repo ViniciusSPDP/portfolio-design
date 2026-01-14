@@ -11,6 +11,7 @@ import IconShowcase from "@/components/IconShowcase";
 import VerticalCatalog from "@/components/VerticalCatalog";
 import AnimatedLogo from "@/components/AnimatedLogo";
 import ProjectStack from "@/components/ProjectStack";
+import ContactSection from "@/components/ContactSection";
 
 export default function Home() {
   const container = useRef(null);
@@ -100,6 +101,8 @@ export default function Home() {
       <VerticalCatalog />
       {/* 4. LISTA DE DOCUMENTOS (PDFs) */}
       <DocumentList />
+      {/* 5. SEÇÃO DE CONTATO */}
+      <ContactSection />
     </main>
   );
 }

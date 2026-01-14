@@ -114,7 +114,7 @@ export default function ProjectStack() {
       <div className="pt-20 pb-10 px-4 md:px-12 text-center">
         <h2 className="text-4xl md:text-6xl font-bold uppercase tracking-tighter mb-4">
           Projetos{" "}
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-blue-500">
+          <span className="text-transparent bg-clip-text bg-linear-to-r from-purple-500 to-blue-500">
             Selecionados
           </span>
         </h2>
@@ -201,6 +201,7 @@ const Card = ({
   progress,
   range,
   targetScale,
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 }: any) => {
   const container = useRef(null);
   const { scrollYProgress } = useScroll({
@@ -218,7 +219,7 @@ const Card = ({
     >
       <motion.div
         style={{ scale, top: `calc(-5vh + ${i * 25}px)` }}
-        className="relative flex flex-col w-full md:w-[1200px] max-w-[95vw] h-[75vh] md:h-[650px] rounded-3xl p-6 md:p-10 origin-top border border-white/10 overflow-hidden bg-[#090909]"
+        className="relative flex flex-col w-full md:w-300 max-w-[95vw] h-[75vh] md:h-162.5 rounded-3xl p-6 md:p-10 origin-top border border-white/10 overflow-hidden bg-[#090909]"
       >
         <div className="relative z-10 flex flex-col md:flex-row h-full gap-8 md:gap-12">
           {/* Coluna de Texto */}
